@@ -44,8 +44,8 @@ var $ = require('jquery');
 
     function playerBoxSpawn () {
         playerBox.position.x = 0;
-        playerBox.position.y = boxHeight * Math.floor((Math.random() * 9) + 1);
-    }
+        playerBox.position.y = boxHeight;
+        console.log(playerBox.position.y)    }
 
     function enemyBoxSpawn () {
         var randomX = Math.floor((Math.random() * 10) + 0);
