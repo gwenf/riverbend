@@ -33,6 +33,7 @@ var $ = require('jquery');
     document.addEventListener('keydown', onKeyDown);
 
     enemyBoxSpawn();
+    playerBoxSpawn();
     animate();
 
     function animate () {
@@ -84,7 +85,6 @@ var $ = require('jquery');
             }
         }
     }
-
 
 })();
 
