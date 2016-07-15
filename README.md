@@ -6,12 +6,16 @@ A turn-based role playing game about time traveling vikings.
 * * *
 
 
-## Running Locally
+### Running locally
 
-1. Clone or download the repo
 1. Install [Node.js](http://nodejs.org) and NPM (Comes with Node)
-1. Run `npm install`
-1. Run `npm start`
+1. Install the LiveReload plugin (recommended)
+ * [Chrome Extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en) - After install go to your Extension settings and give LiveReload access to file URLs
+ * [Firefox plugin](https://addons.mozilla.org/en-US/firefox/addon/livereload/)
+1. Clone repo using git
+1. `npm install`
+1. `npm start`
+1. Click the livereload icon in your browser to enable it for that page
 
 
 * * *
