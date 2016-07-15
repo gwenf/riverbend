@@ -2,15 +2,20 @@
 
 A turn-based role playing game about time traveling vikings.
 
-* * *
-
-## Credits:
-
-* [gwenf](https://github.com/gwenf) - Programmer
-* [mattattaq](https://github.com/mattattaq) - Story/Art
-* [TheJaredWilcurt](https://github.com/TheJaredWilcurt) - Project Management
 
 * * *
+
+
+## Running Locally
+
+1. Clone or download the repo
+1. Install [Node.js](http://nodejs.org) and NPM (Comes with Node)
+1. Run `npm install`
+1. Run `npm start`
+
+
+* * *
+
 
 ## Project Roadmap
 
@@ -40,3 +45,13 @@ A turn-based role playing game about time traveling vikings.
 ### Phase 4: Nice to have, but not important features
 
 * [ ] ???
+
+
+* * *
+
+
+## Credits:
+
+* [gwenf](https://github.com/gwenf) - Programmer
+* [mattattaq](https://github.com/mattattaq) - Story/Art
+* [TheJaredWilcurt](https://github.com/TheJaredWilcurt) - Project Management
