@@ -1,0 +1,26 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "pixi.js": "github:goodboydigital/pixi.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7"
+  },
+  "scripts": {
+    "start": "beefy index.js --live",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gwenfaraday@gmail.com",
+  "license": "ISC"
+}
