@@ -1,0 +1,14 @@
+@charset "utf-8";             // Character type for the stylesheet
+
+//Stuff that goes at the start
+@import "_var.sass";          // Sass Variables and Mixins - Does not effect page, but other Sass files reference this file.
+@import "../../bower_components/meyer-sass/_meyer.sass";
+                              // Resets browser defaults so browsers render pages the same
+@import "_normalize.sass";    // Removes inconsistencies in the way different browsers render items by default
+
+//Stuff that effects every page
+@import "_global.sass";       // Main CSS for the site
+
+//Stuff that effects specific pages
+
+//Stuff that goes at the end
