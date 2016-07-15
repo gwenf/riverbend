@@ -35,18 +35,18 @@ var $ = require('jquery');
     enemyBoxSpawn();
     animate();
 
-    function animate() {
+    function animate () {
         renderer.render(stage);
         checkPosition();
         requestAnimationFrame(animate);
     }
 
-    function playerBoxSpawn(){
+    function playerBoxSpawn () {
         playerBox.position.x = 0;
         playerBox.position.y = boxHeight * Math.floor((Math.random() * 9) + 1);
     }
 
-    function enemyBoxSpawn() {
+    function enemyBoxSpawn () {
         var randomX = Math.floor((Math.random() * 10) + 0);
         var randomY = Math.floor((Math.random() * 9) + 1);
 
@@ -54,15 +54,15 @@ var $ = require('jquery');
         enemyBox.position.y = boxHeight * randomY;
     }
 
-    function checkPosition() {
+    function checkPosition () {
         if (enemyBox.position.x === playerBox.position.x && enemyBox.position.y === playerBox.position.y) {
             enemyBoxSpawn();
         }
     }
 
-    function onKeyDown(key) {
+    function onKeyDown (key) {
         if (key.keyCode === 87 || key.keyCode === 38) {
-            if (playerBox.position.y != 0) {
+            if (playerBox.position.y !== 0) {
                 playerBox.position.y -= boxHeight;
             }
         }
@@ -73,7 +73,7 @@ var $ = require('jquery');
         }
 
         if (key.keyCode === 65 || key.keyCode === 37) {
-            if (playerBox.position.x != 0) {
+            if (playerBox.position.x !== 0) {
                 playerBox.position.x -= boxWidth;
             }
         }
@@ -115,9 +115,9 @@ var $ = require('jquery');
 
 
 // var collection__string = '';
-// for (var i=0;i<player.collection.length;i++){
+// for (var i=0;i<player.collection.length;i++) {
 //   // console.log(player.collection.length)
-//   if (i>2){
+//   if (i>2) {
 //     collection__string += `<li><a href='#'>View All</a></li>`;
 //     break;
 //   }
@@ -168,7 +168,7 @@ console.log('app.js');
 //
 // stage.addChild(zombie);
 //
-// function draw() {
+// function draw () {
 //   renderer.render(stage);
 //   requestAnimationFrame(draw);
 // }
